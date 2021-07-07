@@ -1,0 +1,110 @@
+body{
+    font:12px arial;
+    color:black;
+    text-align: center;
+    padding: 35px;
+    background: linear-gradient(90deg, #FFC312, #EE5A25, #FFC312 );
+
+
+}
+
+form, p, span{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    font: 12px arial;
+}
+a{
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#wrapper, #loginform{
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: linear-gradient(360deg,#755bea,#ff72c0);
+    width: 514px;
+    border: 6px solid #fff;
+    border-radius: 6px;
+}
+#chatbox{
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    background: #fff;
+    height: 250px;
+    width: 460px;
+    border: 1px solid #bebebe;
+    overflow: auto;
+    border-radius: 5px;
+}
+.usermsg{
+    width: 390px;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    resize: none;
+    border-radius: 5px;
+}
+.button{
+    
+    
+    padding: 11px 5px;
+    border: none;
+    cursor: pointer;
+    width: 13%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    text-transform: uppercase; 
+    transition: color 0.5s linear;
+    position: relative;
+
+}
+.button:hover{
+    color:rgb(255, 255, 255);
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    
+}
+
+
+.welcome{
+    font-size: 38px;
+    color: rgb(5, 120, 197);
+}
+
+.login{
+    float: right;
+    background-color: rgb(35, 140, 182);
+    color:white;
+    padding: 10px 14px;
+    bottom: none;
+    cursor: pointer;
+    width: 18px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-right: 2px;
+}
+.login:hover{
+    background-color: rgb(16, 107, 143);
+    color: white;
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 23px;
+}
+
